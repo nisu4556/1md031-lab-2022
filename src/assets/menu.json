@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Kingburger",
+    "kCal": 450,
+    "lactose": true,
+    "gluten": true,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1280px-Cheeseburger.jpg",
+    "nr": 1
+  },
+  {
+    "name": "Ostburgare",
+    "kCal": 850,
+    "lactose": true,
+    "gluten": false,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1280px-Cheeseburger.jpg",
+    "nr": 2
+  },
+  {
+    "name": "Queenburger",
+    "kCal": 400,
+    "lactose": true,
+    "gluten": false,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1280px-Cheeseburger.jpg",
+    "nr": 3
+  }
+]

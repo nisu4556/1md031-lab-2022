@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Page title shown in window title</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- komentar -->
+<body>
+    <header>
+
+        <img id="headpic" src="https://assets-us-01.kc-usercontent.com/0542d611-b6d8-4320-a4f4-35ac5cbf43a6/2ecf24fe-9f8f-498c-800e-0daccc75a7c1/bar-insurance-header.jpg?w=1110&h=400&fit=crop">
+        <H1 class="rub">Welcome to BurgerOnline </H1>
+    </header>
+    <main>
+        <section id="burgers">
+            <h3 class="rub2">Select burger</h3>
+            <p class="txt">This is where you execute burger selection</p>
+            <div class="wrapper" >
+                <div class="burg a" >
+                    <h3 class="rub2">Burger 1</h3>
+                    <img id="pic_burgar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1280px-Cheeseburger.jpg">
+                    <ul>
+                        <li>Chesse</li>
+                        <li>150g Beef</li>
+                        <li>Mayo</li>
+                        <li class="allergy">Gluten</li>
+                        <li>lettuce</li>
+                    </ul>
+                </div>
+                <div class="burg b" >
+                    <h3 class="rub2">Burger 1</h3>
+                    <img id="pic_burgar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1280px-Cheeseburger.jpg">
+                    <ul>
+                        <li>Chesse</li>
+                        <li>150g Beef</li>
+                        <li>Mayo</li>
+                        <li class="allergy">Gluten</li>
+                        <li>lettuce</li>
+                    </ul>
+                </div>
+                <div class="burg c" >
+                    <h3 class="rub2">Burger 1</h3>
+                    <img id="pic_burgar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cheeseburger.jpg/1280px-Cheeseburger.jpg">
+                    <ul>
+                        <li>Chesse</li>
+                        <li>150g Beef</li>
+                        <li>Mayo</li>
+                        <li class="allergy">Gluten</li>
+                        <li>lettuce</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h3 class="rub2">Customer information</h3>
+            <p class=" txt">Necessary information</p>
+            <h3 class="rub2">Delivery information:</h3>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="firstname" name="fn" required="required" placeholder="Kalle Karlsson"><br>
+
+                <label for="Email">Email</label><br>
+                <input type="email" id="email" name="em" required="required" placeholder="E-mail address"><br>
+
+                <label for="Street">Street</label><br>
+                <input type="text" id="Street" name="ln" placeholder="Street name"><br>
+
+                <label for="HouseNR">House number</label><br>
+                <input type="number" id="HouseNR" name="HouseNR" placeholder="House number"><br>
+                <br>
+                <label for="payment">Payment</label><br>
+                <select id="payment" >
+                        <option value="card">Card</option>
+                        <option value="swish">Swish</option>
+                        <option value="klarna" selected="selected">Klarna </option>
+                        <option value="paypal">PayPal</option>
+                    </select><br>
+                <br>
+
+                <p> Gender</p>
+                <input type="radio" id="male" name="gen" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gen" value="female" >
+                <label for="female">Female</label><br>
+                <input type="radio" id="nan" name="gen" value="nan">
+                <label for="nan">Do not wish to tell</label><br>
+            </form>
+            <button type="submit">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fse.depositphotos.com%2Fvector-images%2Fbudb%25C3%25A4rare.html&psig=AOvVaw1cHZH4qDIKVMg3fgHTr-zb&ust=1668605233498000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC95YOlsPsCFQAAAAAdAAAAABAE"
+                     alt="" width="20px" height="20px">
+                Send Info
+            </button>
+        </section>
+    </main>
+    <footer class="foot">
+        <p>&copy 2022 Hypothetical burgers inc.</p>
+    </footer>
+</body>
+</html>

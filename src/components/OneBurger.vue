@@ -8,8 +8,8 @@
             <li>Chesse</li>
             <li>150g Beef</li>
             <li>{{burger.kCal}} kCal</li>
-            <li class="allergy">Has lactose {{burger.lactose}}</li>
-            <li class="allergy">Has gluten {{burger.gluten}}</li>
+            <li v-if="burger.lactose" class="allergy">Has lactose </li>
+            <li v-if="burger.gluten"class="allergy">Has gluten </li>
             <li>lettuce</li>
           </ul>
         <section><p>Chosen burgers: {{ amountOrdered }}</p></section>
